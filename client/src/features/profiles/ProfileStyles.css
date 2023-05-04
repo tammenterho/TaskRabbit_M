@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.text-style {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+.pallo {
+    padding-top: 15px;
+
+}
+
+.reviewList {
+    overflow-y: auto;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #845EC2;
+    position: relative;
+    background-image: url("file:///C:/training/lprojekti/loppuprojekti/client/public/carrotBG.png"); 
+  }
+
+.reviewi {
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    
+  
+  }
