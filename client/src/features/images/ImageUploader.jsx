@@ -5,7 +5,12 @@ import { useSelector } from 'react-redux';
 import { width } from '@mui/system';
 
 
-
+AWS.config.update({
+  accessKeyId: 'AKIA5T564YYYPJWIH6AU',
+  secretAccessKey: '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',
+  region: 'eu-north-1',
+  signatureVersion: 'v4',
+});
 
 export default function ImageUploader({ imageType }) {
   const s3 = new AWS.S3();
